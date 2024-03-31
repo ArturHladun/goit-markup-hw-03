@@ -4,19 +4,49 @@ body {
     color: #434455;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 /*------------------- Title ---------------------- */
-/* .title {
 
-} */
+/* ----------------------------------------------------- */
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*------------------- Header-----------------------*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav {
+
+}
 /* ----------------------------------------------------- */
 /*------------------- Header logo-----------------------*/
 
@@ -92,6 +122,8 @@ font-style: normal
 
 .hero-section {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-section-heading {
@@ -101,6 +133,9 @@ font-style: normal
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
 }
 
 .hero-button {
@@ -123,6 +158,11 @@ font-style: normal
 
 .hero-button:focus {
     background-color: #404BBF;
+}
+
+.section-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-features-list {
@@ -153,6 +193,8 @@ font-style: normal
 
 .our-team-section {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-section-title {
@@ -163,6 +205,9 @@ font-style: normal
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
+        margin: 0 auto;
 }
 
 .our-team-list {
@@ -198,7 +243,8 @@ font-style: normal
 /*------------------- Our Portfolio ---------------------- */
 
 .portfolio-section {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-section-title {
